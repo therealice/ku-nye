@@ -8,7 +8,6 @@ body {
     margin: 0;
 }
 .header {
-    text-align: center;
     margin: 0;
     height: 100vh;
     background: url('logo.jpg') no-repeat center center fixed;
@@ -16,17 +15,21 @@ body {
     color: #fff;
 }
 .welcome {
+    text-align: center;
+    font-size: 1.2em;
     position: absolute;
     top: 50%;
     width: 100%;
     transform:translateY(-100%);
-    font-size: 1.2em;
 }
 .title {
+    font-size: 2.4em;
     margin: 0;
     padding: 10px 0;
 }
 .more {
+    font-size: 1.0em;
+    text-align: center;
     position:absolute;
     top:100vh;
     transform:translateY(-100%);
@@ -35,6 +38,9 @@ body {
 }
 .more svg {
     width: 50px;
+}
+.no-break {
+    white-space:nowrap;
 }
 .main {
     max-width: 900px;
@@ -49,6 +55,6 @@ body {
 .heading {
     margin: 10px 0;
     color: darkgoldenrod;
-    font-size: 1.4em;
     font-weight: normal;
+    font-size: 1.4em;
 }
