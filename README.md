@@ -1,6 +1,6 @@
-# Stilleblomst
+# Tibetan Ku Nye Massage
 
-A Static website for https://www.stilleblomst.no
+A Static website for https://www.ku-nye.no
 
 ### Requirements
 * Node 7.8.0 (https://nodejs.org/)

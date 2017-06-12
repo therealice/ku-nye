@@ -1,23 +1,23 @@
 {
-  "name": "stilleblomst",
+  "name": "ku-nye",
   "version": "1.0.0",
   "description": "## Technical The application is hosted as static content.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server -d --config webpack.config.js --progress --colors --https",
+    "start": "webpack-dev-server -d --config webpack.config.js --progress --colors",
     "build": "rm -rf dist && webpack -p"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/therealice/stilleblomst.git"
+    "url": "git+https://github.com/therealice/ku-nye.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/therealice/stilleblomst/issues"
+    "url": "https://github.com/therealice/ku-nye/issues"
   },
-  "homepage": "https://github.com/therealice/stilleblomst#readme",
+  "homepage": "https://github.com/therealice/ku-nye#readme",
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "babel-core": "^6.24.0",

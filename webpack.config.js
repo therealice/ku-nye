@@ -84,6 +84,6 @@ module.exports = {
         contentBase: path.join(__dirname, "src"),
         compress: true,
         port: 8080,
-        https: true
+        https: false
     }
 };
