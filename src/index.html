@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta property="og:title" content="Stille blomst" />
+    <meta property="og:description" content="Behandlinger for kropp og sjel" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.stilleblomst.no" />
+    <meta property="og:image" content="https://www.stilleblomst.no/<%= require('./logo.jpg') %>" />
+    <meta property="og:image:type" content="image/jpg" />
+    <title>Stille blomst</title>
+</head>
+<body>
+<header class="header">
+    <div class="toolbar">
+        <input id="toolbar-toggle" class="toolbar-toggle" type="checkbox" />
+
+        <label class="hamburger hamburger--squeeze" for="toolbar-toggle">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </label>
+
+        <nav class="nav" role="navigation">
+            <ul class="menu">
+                <li><a href="#behandlinger" class="menu-link">Behandlinger</a></li>
+                <li><a href="#priser" class="menu-link">Priser</a></li>
+                <li><a href="#kontakt" class="menu-link">Kontakt</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="welcome">
+        <h1 class="title">Stille blomst</h1>
+        <div class="large-text">Behandlinger for kropp og sjel</div>
+        <figure class="logo">
+            <%= require('!svg-inline-loader!./logo.svg') %>
+        </figure>
+    </div>
+</header>
+
+<main class="main">
+
+    <section class="section" id="hjem">
+        <h2 class="heading">Velkommen til Stille blomst</h2>
+        <p>Stille blomst tilbyr Axelsons klassiske massasje.</p>
+        <p>​Den klassiske massasjen er både behandlende og
+            forebyggende. Massasjen kan hjelpe mot spenninger og smerter i muskulaturen,
+            som stivnakke, hodepine og stive skuldre. Massasje kan også hjelpe mot stress og uro.
+            Ved at kroppen slapper av blir sinnet roligere,
+            man får en dypere pust, økt kroppsbevissthet, bedret konsentrasjon,
+            økt energinivå og et gladere sinn. Ved å dra fokuset innover hjelper massasjen
+            en til å finne en ro og stillhet slik at man igjen får øye på blomsten i segselv.
+            Hos stille blomst er det derfor fokus på å finne tilbake til stillheten.
+        </p>
+        <p>Stille blomst drives av meg, Mari Holte Staurnes. Jeg har studert massasje
+            ved Mumuksha i India, og ved Axelsons Body work School i Oslo.
+        </p>
+        <p>Min erfaring er at avslapning og avspenning virker helende på hele mennesket.
+            Massasje har gitt meg følelsen av dyp ro, og å komme mer "på plass" i meg selv, og som
+            følge finne en større klarhet og tilstedeværelse i kroppen og sinnet.
+            Jeg har stor tro på at kroppen gjennom avslapning kan gjenfinne sin naturlige balanse.
+        </p>
+    </section>
+
+    <section class="section" id="behandlinger">
+        <h2 class="heading">Behandlinger</h2>
+        <section class="sub-section">
+            <h3 class="sub-heading">Massasje</h3>
+            <p>Behandlingen starter med en amnese/kort intervju der klienten gir sin egen symptomforklaring.
+                Amnesen brukes til kartlegging av årsaker til smerter og spenninger for å avdekke hvilke muskler
+                som er spente. Behandlingen foregår på en benk i et varmt og rolig rom,
+                de deler av kroppen som ikke behandles tildekkes. Det benyttes i hovedsak fem ulike
+                grep som massøren utfører med hendene direkte på huden, bindevevet og muskulaturen.
+                Selve massasjebehandlingen begynner alltid med oppvarming av muskulaturen med lange strykende
+                bevegelser i muskelfiberretningen etterfulgt av petrissage og friksjoner.
+                Grunnprinsippet i massasjen er å øke blodgjennomstrømningen og tøye muskelfibrene.
+                Dette øker sirkulasjonen i blodet og stimulerer hormon- og nerveaktivitet.
+            </p>
+            <p>Massasjen kan være avslappende, behandlende eller forebyggende,
+                alt etter klientens behov.
+            </p>
+        </section>
+        <section class="sub-section">
+            <h3 class="sub-heading">Muskulering</h3>
+            <p>Muskulering er en behandlingsform der det er fokus på en enkelt muskel eller muskelgruppe.
+                Muskulering har som hensikt å øke muskelavspenning og fleksibilitet, hvilket styrker
+                muskulaturen og øker leddenes bevegelsesomfang. Metoden omfatter
+                muskel-tøyningstest, muskelmassasje, og et ev. hjemmetreningsprogram.
+                Muskulering kan inngå som en del av en massasjebehandling.
+            </p>
+        </section>
+    </section>
+
+    <section class="section" id="priser">
+        <h2 class="heading">Priser</h2>
+        <p>Massasje 60 minutter kr 600,-<br/>
+            Massasje 30 minutter kr 350,<br/>
+            Massasje med muskulering 60 minutter kr 600,-
+        </p>
+    </section>
+
+    <section class="section" id="kontakt">
+        <h2 class="heading">Kontakt</h2>
+        <p>Kun åpent ved timeavtale.
+            Stille blomst er i startfasen, og har for øyeblikket ikke et fast lokale.
+            Sted (i oslo sentrum) kan derfor variere ettersom dette leies på timebasis.
+            Etter bestilling av time vil du motta en bekreftelse på e-post med konkret informasjon om sted.
+        </p>
+        <p>Kontakt Stille blomst på e-post <a href="mailto:kontakt@stilleblomst.no">kontakt@stilleblomst.no</a></p>
+    </section>
+
+</main>
+</body>
+</html>
