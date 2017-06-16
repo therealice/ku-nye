@@ -8,25 +8,31 @@
     <meta property="og:title" content="Ku Nye" />
     <meta property="og:description" content="Tibetan massage" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.ku-nye.no" />
-    <meta property="og:image" content="https://www.ku-nye.no/<%= require('./logo.jpg') %>" />
+    <meta property="og:url" content="https://ku-nye.netlify.com" />
+    <meta property="og:image" content="https://ku-nye.netlify.com/<%= require('./assets/logo.jpg') %>" />
     <meta property="og:image:type" content="image/jpg" />
     <title>Ku Nye</title>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="facebook" width="24" height="24" viewBox="0 0 24 24">
+            <%= require('!svg-inline-loader!./assets/social-facebook.svg') %>
+          </symbol>
+
+        <symbol id="twitter" width="24" height="24" viewBox="0 0 24 24">
+            <%= require('!svg-inline-loader!./assets/social-twitter.svg') %>
+        </symbol>
+    </svg>
 </head>
 <body>
-<header class="header tint">
-    <div class="welcome">
-        <h1 class="title">Ku Nye (སྐུ་མཉེ།)</h1>
-        <div class="subtitle">Tibetan massage therapy</div>
+
+<header class="poster">
+    <div class="poster-caption">
+        <h1 class="poster-title">Ku Nye</h1>
+        <p class="poster-subtitle">Tibetan massage therapy</p>
     </div>
-    <a href="#main">
-        <figure class="more">
-            <%= require('!svg-inline-loader!./chevron-down.svg') %>
-        </figure>
-    </a>
 </header>
 
-<main class="main" id="main">
+<main class="main">
     <section class="section">
         <h2 class="heading">What is Ku Nye?</h2>
         <p>Ku Nye (སྐུ་མཉེ།) is a Tibetan form of massage, which has been practiced for thousands of years 
@@ -56,12 +62,27 @@
 </main>
 
 <footer class="footer">
-    <section class="footer-section">
+
+    <section class="section references">
         <p>References:
         </p>
         <p>1. <i>Tibetan exteral therapies - Ku Nye (Traditional tibetan massage)</i>. (2014, October 22). Retrieved from https://tibetanmedicinetoday.wordpress.com/2014/10/22/tibetan-external-therapies-ku-nye-traditional-tibetan-massage/
         </p>
     </section>
+
+    <ul class="social">
+        <li>
+            <a class="social-link" href="#" title="Share on Facebook" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ku-nye.netlify.com', 'facebook-share','width=580,height=296');return false;">
+                <svg class="social-icon social-icon-facebook"><use xlink:href="#facebook" /></svg>
+            </a>
+        </li>
+        <li>
+            <a class="social-link" href="#" title="Share on Twitter" onclick="window.open('http://twitter.com/share?text=Tibetan Ku-Nye Massage&amp;url=https://ku-nye.netlify.com', 'twitter-share', 'width=550,height=235');return false;">
+                <svg class="social-icon social-icon-twitter"><use xlink:href="#twitter" /></svg>
+            </a>
+        </li>
+    </ul>
 </footer>
+
 </body>
 </html>

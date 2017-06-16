@@ -29,3 +29,15 @@ The site is automatically built and deployed to netlify whenever the master bran
 
 ### Images
 All jpegs should be optimized and progressive jpegs. https://www.jpeg.io/ can be used to convert any image to the format we want.
+
+### Social Icons
+Are found on https://github.com/stephenhutchings/typicons.font/blob/master/src/svg/
+
+### CSS
+The file critical.css is always inlined into the index.html file, while all other css files required are bundled as internal.css which is requested normally.
+
+### inline SVG
+To inline SVG in index.html, write:
+```
+<%= require('!svg-inline-loader!./assets/<asset-file-name>') %>
+```
