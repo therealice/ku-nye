@@ -50,11 +50,6 @@ body {
     font-weight: normal;
     font-size: 1.4em;
 }
-.references {
-    font-size: 0.8em;
-}
-
-/* Utils */
 .no-break {
     white-space: nowrap;
 }
@@ -144,6 +139,7 @@ body {
 	border-width: 6px;
 	margin-left: -6px;
 }
+
 /* Media queries */
 @media (max-width: 500px) {
     .section {
