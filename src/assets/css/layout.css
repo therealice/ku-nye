@@ -1,0 +1,47 @@
+.poster {
+    height: 500px;
+    width: 100%;
+    background: url('../images/logo.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.poster__section {
+    text-align: center;
+}
+.poster__heading {
+    font-size: 3.0em;
+    margin: 0;
+    padding: 10px 0;
+}
+.poster__subheading {
+    font-size: 1.1em; 
+    margin: 0;
+}
+.article {
+    max-width: 900px;
+    margin: 40px auto;
+    height: 100%;
+}
+.section {
+    padding: 10px;
+    margin: 10px 60px;
+    overflow: hidden;
+}
+.heading {
+    margin: 0;
+    color: darkgoldenrod;
+    font-weight: normal;
+    font-size: 1.4em;
+}
+.no-break {
+    white-space: nowrap;
+}
+
+@media (max-width: 500px) {
+    .section {
+        margin: 10px 20px;
+    }
+}

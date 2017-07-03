@@ -28,14 +28,14 @@ const extractTextPluginConfig = {
 };
 
 module.exports = {
-    entry: './src/app.js',
+    entry: ['./src/assets/js/app.js', './src/assets/css/critical.css'],
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'internal.[hash].js'
     },
     module: {
         rules: [
-            {
+            {                
                 test    : /critical.css$/,
                 loader: criticalCSS.extract(extractTextPluginConfig)
             },

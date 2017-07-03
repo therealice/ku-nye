@@ -9,33 +9,34 @@
     <meta property="og:description" content="Tradisjonell tibetansk massasje" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ku-nye.netlify.com" />
-    <meta property="og:image" content="https://ku-nye.netlify.com/<%= require('./assets/logo.jpg') %>" />
+    <meta property="og:image" content="https://ku-nye.netlify.com/<%= require('./assets/images/logo.jpg') %>" />
     <meta property="og:image:type" content="image/jpg" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     <title>Ku nye</title>
 
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="facebook" width="24" height="24" viewBox="0 0 24 24">
-            <%= require('!svg-inline-loader!./assets/social-facebook.svg') %>
+            <%= require('!svg-inline-loader!./assets/images/social-facebook.svg') %>
           </symbol>
 
         <symbol id="twitter" width="24" height="24" viewBox="0 0 24 24">
-            <%= require('!svg-inline-loader!./assets/social-twitter.svg') %>
+            <%= require('!svg-inline-loader!./assets/images/social-twitter.svg') %>
         </symbol>
     </svg>
 </head>
 <body>
 
 <header class="poster">
-    <section class="poster-caption">
-        <h1 class="poster-title">Ku nye</h1>
-        <p class="poster-subtitle">Tradisjonell tibetansk massasje</p>
+    <section class="poster__section">
+        <h1 class="poster__heading">Ku nye</h1>
+        <p class="poster__subheading">Tradisjonell tibetansk massasje</p>
     </section>
 </header>
 
-<main class="main">
+<article class="article">
     <section class="section">
         <h1 class="heading">Hva er Ku nye?</h1>
-        <p>Ku nye (སྐུ་མཉེ།) er en tibetansk form for massasje og er en del av Tibetansk medisin.
+        <p>Ku nye er en tibetansk form for massasje og er en del av Tibetansk medisin.
            På Tibetansk betyr ordet Ku (སྐུ་) å anvende olje, og ordet nye (མཉེ་) å påføre trykk med bevegelse.
         </p>
     </section>
@@ -43,7 +44,7 @@
     <section class="section">
         <h1 class="heading">Hva kan du forvente?</h1>
         <p>Du kan forvente en lett massasje med naturlig olje. 
-           Du vil kunne oppleve noe trykk på visse punkter, men ellers er dette en behandling som forhåpentligvis vil gi deg ro.
+           Du vil kunne oppleve noe trykk på visse punkter, men ellers er dette en behandling som vi håper vil gi deg ro.
            Massasjen starter med at klienten ligger på magen mens ben, rygg og armer blir massert.
            Deretter bes klienten snu seg og legge seg på ryggen hvor så ben, mage, bryst, armer, nakke og hode blir massert.
            Behandlingen varer i omkring 90 minutter.
@@ -52,7 +53,7 @@
 
     <section class="section">
         <h1 class="heading">Pris</h1>
-        <p>90 minuttes of Ku Nye massage kr 750,-
+        <p>90 minutter med Ku Nye kr 800,-
         </p>
     </section>
 
@@ -64,20 +65,20 @@
         <p>Kontakt oss gjerne på <a class="no-break" href="mailto:ku-nye@gmail.com">ku-nye@gmail.com</a>
         </p>
     </section>
-</main>
+</article>
 
-<footer class="footer">
+<footer>
     <ul class="social">
         <li>
-            <a class="social-link" href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ku-nye.netlify.com', 'facebook-share','width=580,height=296');return false;">
-                <svg class="social-icon social-icon-facebook"><use xlink:href="#facebook" /></svg>
-                <span class="tooltip tooltip-facebook">Del på Facebook</span>
+            <a class="social__link" href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://ku-nye.netlify.com', 'facebook-share','width=580,height=296');return false;">
+                <svg class="social__icon social__icon--facebook tooltip__target"><use xlink:href="#facebook" /></svg>
+                <span class="tooltip">Del på Facebook</span>
             </a>
         </li>
         <li>
-            <a class="social-link" href="#" onclick="window.open('http://twitter.com/share?text=Tibetan Ku-Nye Massage&amp;url=https://ku-nye.netlify.com', 'twitter-share', 'width=550,height=235');return false;">
-                <svg class="social-icon social-icon-twitter"><use xlink:href="#twitter" /></svg>
-                <span class="tooltip tooltip-twitter">Del på Twitter</span>
+            <a class="social__link" href="#" onclick="window.open('http://twitter.com/share?text=Tibetan Ku-Nye Massage&amp;url=https://ku-nye.netlify.com', 'twitter-share', 'width=550,height=235');return false;">
+                <svg class="social__icon social__icon--twitter tooltip__target"><use xlink:href="#twitter" /></svg>
+                <span class="tooltip">Del på Twitter</span>
             </a>
         </li>
     </ul>
