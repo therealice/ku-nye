@@ -34,5 +34,8 @@
     "svg-inline-loader": "^0.7.1",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.2"
+  },
+  "dependencies": {
+    "webfontloader": "^1.6.28"
   }
 }
