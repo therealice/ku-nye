@@ -5,6 +5,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const OfflinePlugin = require('offline-plugin');
 const StyleExtHtmlWebpackPlugin = require('style-ext-html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 
 const criticalCSS = new ExtractTextPlugin('critical.css');
@@ -78,7 +79,10 @@ module.exports = {
             ServiceWorker: {
                 events: true
             }
-        })
+        }),
+        new CopyWebpackPlugin([
+            { from: './src/static' }
+        ])
     ],
     devServer: {
         contentBase: path.join(__dirname, "src"),
