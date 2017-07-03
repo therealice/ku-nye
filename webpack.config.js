@@ -78,7 +78,8 @@ module.exports = {
         new OfflinePlugin({
             ServiceWorker: {
                 events: true
-            }
+            },
+            AppCache: null
         }),
         new CopyWebpackPlugin([
             { from: './src/static' }
