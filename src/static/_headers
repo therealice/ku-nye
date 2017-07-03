@@ -1,5 +1,5 @@
 /logo.*.jpg
-	Cache-Control: public, max-age=360000
+	Cache-Control: public, max-age=31536000
 	
 /internal.*.js
-	Cache-Control: public, max-age=360000
+	Cache-Control: public, max-age=31536000
