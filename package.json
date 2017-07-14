@@ -1,5 +1,5 @@
 {
-  "name": "ku-nye",
+  "name": "kunye",
   "version": "1.0.0",
   "description": "## Technical The application is hosted as static content.",
   "main": "app.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/therealice/ku-nye.git"
+    "url": "git+https://github.com/therealice/kunye.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/therealice/ku-nye/issues"
+    "url": "https://github.com/therealice/kunye/issues"
   },
-  "homepage": "https://github.com/therealice/ku-nye#readme",
+  "homepage": "https://github.com/therealice/kunye#readme",
   "devDependencies": {
     "autoprefixer": "^6.7.7",
     "babel-core": "^6.24.0",
