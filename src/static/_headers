@@ -1,5 +1,8 @@
-/*
-	Cache-Control: public, max-age=10
+favicon.ico
+	Cache-Control: public, max-age=15
+
+/sw.js
+	Cache-Control: public, max-age=15
 
 /*.jpg
 	Cache-Control: public, max-age=31536000
