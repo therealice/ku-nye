@@ -1,6 +1,6 @@
 # Tibetan Ku Nye Massage
 
-A Static website for https://ku-nye.netlify.com
+A Static website for https://kunye.netlify.com
 
 ## Requirements
 * Node 7.8.0 (https://nodejs.org/)
