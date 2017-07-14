@@ -41,7 +41,7 @@ To inline SVG in index.html, write:
 ## External resources
 
 ### Images
-All jpegs should be optimized as progressive jpegs. https://www.jpeg.io/ can be used to convert any image to the format we want.
+All jpegs should be compressed and be optimized as progressive jpegs. Use https://tinyjpg.com/ for compression and https://www.jpeg.io/ to get progressive jpegs.
 
 ### Social Icons
 Are found on https://github.com/stephenhutchings/typicons.font/blob/master/src/svg/
