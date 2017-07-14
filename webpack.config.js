@@ -9,7 +9,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 const webpack = require('webpack');
 
 const criticalCSS = new ExtractTextPlugin('critical.css');
-const internalCSS = new ExtractTextPlugin('internal.[contenthash].css');
+const internalCSS = new ExtractTextPlugin('kunye.[contenthash].css');
 
 const extractTextPluginConfig = {
     fallback: 'style-loader',
@@ -32,7 +32,7 @@ module.exports = {
     entry: ['./src/assets/js/app.js', './src/assets/css/critical.css'],
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'internal.[hash].js'
+        filename: 'kunye.[hash].js'
     },
     module: {
         rules: [
