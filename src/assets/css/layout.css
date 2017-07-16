@@ -1,12 +1,16 @@
 .poster {
     height: 500px;
     width: 100%;
-    background: url('../images/buddha.jpg') no-repeat center center;
+    max-width: 1500px;
+    background-image: url('../images/buddha-large.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 42%;
     background-attachment: scroll;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 .poster__section {
     margin-top: 70px;
@@ -46,3 +50,14 @@
         margin: 10px 20px;
     }
 }
+@media (max-width: 968px) {
+    .poster {
+        background-image: url('../images/buddha-medium.jpg');
+    }
+}
+@media (max-width: 484px) {
+    .poster {
+        background-image: url('../images/buddha-small.jpg');
+    }
+}
+
