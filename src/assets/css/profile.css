@@ -1,0 +1,23 @@
+.profilepicture__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profilepicture {
+    display: inline-block;
+    margin: 20px;
+}
+.profilepicture__img {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.profilepicture__caption {
+    width: 200px;
+    text-align: center;
+}
