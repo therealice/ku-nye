@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -88,17 +88,19 @@
 
 <footer>
     <ul class="social">
-        <li>
-            <a class="social__link" href="#" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://kunye.netlify.com', 'facebook-share','width=580,height=296');return false;">
-                <svg class="social__icon social__icon--facebook tooltip__target"><use xlink:href="#facebook" /></svg>
-                <span class="tooltip">Share on Facebook</span>
+        <li class="tooltip__origin">
+            <a aria-labelledby="social-facebook-tooltip" class="social__link tooltip__target" href="#" 
+                onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=https://kunye.netlify.com', 'facebook-share','width=580,height=296');return false;">
+                <svg class="social__icon social__icon--facebook"><use xlink:href="#facebook" /></svg>
             </a>
+            <span id="social-facebook-tooltip" class="tooltip" role="tooltip">Share on Facebook</span>
         </li>
-        <li>
-            <a class="social__link" href="#" onclick="window.open('http://twitter.com/share?text=Traditional Tibetan Massage&amp;url=https://kunye.netlify.com', 'twitter-share', 'width=550,height=235');return false;">
-                <svg class="social__icon social__icon--twitter tooltip__target"><use xlink:href="#twitter" /></svg>
-                <span class="tooltip">Share on Twitter</span>
+        <li class="tooltip__origin">
+            <a aria-labelledby="social-twitter-tooltip" class="social__link tooltip__target" href="#" 
+                onclick="window.open('http://twitter.com/share?text=Traditional Tibetan Massage&amp;url=https://kunye.netlify.com', 'twitter-share', 'width=550,height=235');return false;">
+                <svg class="social__icon social__icon--twitter"><use xlink:href="#twitter" /></svg>
             </a>
+            <span id="social-twitter-tooltip" class="tooltip" role="tooltip">Share on Twitter</span>
         </li>
     </ul>
 </footer>

@@ -36,6 +36,10 @@
 	border-width: 6px;
 	margin-left: -6px;
 }
-.tooltip__target:hover ~ .tooltip {
+.tooltip__origin {
+	position: relative;
+}
+.tooltip__target:hover ~ .tooltip, 
+.tooltip__target:focus ~ .tooltip {
     opacity: 1;
 }
