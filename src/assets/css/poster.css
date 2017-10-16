@@ -1,0 +1,23 @@
+.poster {
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #6f2727;
+    color: white;
+}
+.poster__picture {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.poster__heading {
+    font-size: 2.7em;
+    margin: 0;
+}
+.poster__subheading {
+    margin: 0;
+}

@@ -1,7 +1,7 @@
 {
   "name": "kunye",
   "version": "1.0.0",
-  "description": "## Technical The application is hosted as static content.",
+  "description": "## The application is hosted as static content.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -36,7 +36,5 @@
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.2"
   },
-  "dependencies": {
-    "webfontloader": "^1.6.28"
-  }
+  "dependencies": {}
 }

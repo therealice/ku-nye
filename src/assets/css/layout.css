@@ -1,33 +1,6 @@
-.poster {
-    height: 500px;
-    width: 100%;
-    max-width: 1500px;
-    background-image: url('../images/buddha-large.jpg');
-    background-repeat: no-repeat;
-    background-position: 50% 42%;
-    background-attachment: scroll;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-}
-.poster__section {
-    margin-top: 70px;
-    text-align: center;
-    color: #fff;
-}
-.poster__heading {
-    font-size: 2.7em;
-    margin: 0;
-}
-.poster__subheading {
-    font-size: 1.0em; 
-    margin: 0;
-}
 .article {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 0 auto;
     height: 100%;
 }
 .section {
@@ -37,8 +10,8 @@
 }
 .heading {
     margin: 0;
-    color: darkgoldenrod;
-    font-weight: normal;
+    color: black;
+    font-weight: 600;
     font-size: 1.4em;
 }
 .nobreak {
@@ -48,16 +21,6 @@
 @media (max-width: 500px) {
     .section {
         margin: 10px 20px;
-    }
-}
-@media (max-width: 968px) {
-    .poster {
-        background-image: url('../images/buddha-medium.jpg');
-    }
-}
-@media (max-width: 484px) {
-    .poster {
-        background-image: url('../images/buddha-small.jpg');
     }
 }
 
