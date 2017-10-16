@@ -1,6 +1,6 @@
 # Tibetan Ku Nye Massage
 
-A Static website for https://kunye.netlify.com
+A Static website for https://kunye.life
 
 ## Requirements
 * Node 7.8.0 (https://nodejs.org/)
@@ -14,18 +14,18 @@ yarn
 ## Run in development
 Start the dev server
 ```
-yarn run start
+yarn start
 ```
 Then open http://localhost:8080
 
 ## Build
 The productions files will be placed in the **dist** folder.
 ```
-yarn run build
+yarn build
 ```
 
-## Deployment
-The site is automatically built and deployed to netlify whenever the master branch in the repository is changed.
+## Deployment to production
+The site is automatically built and deployed to Netlify whenever the master branch in the repository is changed.
 
 ## Code
 
