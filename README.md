@@ -1,10 +1,6 @@
 # Tibetan Ku Nye Massage
 
-A Static website for https://kunye.life
-
-## Requirements
-* Node 7.8.0 (https://nodejs.org/)
-* Yarn (https://yarnpkg.com/)
+A Static website for https://kunye.netlify.com/
 
 ## Install
 ```
