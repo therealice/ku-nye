@@ -2,6 +2,9 @@
 
 A Static website for https://kunye.netlify.com/
 
+## Tech
+Webpack
+
 ## Install
 ```
 yarn
